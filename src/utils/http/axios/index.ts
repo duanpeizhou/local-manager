@@ -277,10 +277,9 @@ function createAxios(opt?: Partial<CreateAxiosOptions>) {
 }
 export const defHttp = createAxios();
 
-// other api url
-// export const otherHttp = createAxios({
-//   requestOptions: {
-//     apiUrl: 'xxx',
-//     urlPrefix: 'xxx',
-//   },
-// });
+export const lmsHttp = createAxios({
+  requestOptions: {
+    apiUrl: 'http://localhost:20241',
+    urlPrefix: '/api',
+  },
+});

@@ -75,7 +75,7 @@ const menuList = (() => {
       icon: ['ion:layers-outline', 'ion:git-compare-outline', 'ion:tv-outline'][index],
       component: 'LAYOUT',
       type: '0',
-      menuName: ['Dashboard', '权限管理', '功能'][index],
+      menuName: ['Dashboard', '权限管理1234', '功能'][index],
       permission: '',
       orderNo: index + 1,
       createTime: '@datetime',
