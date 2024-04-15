@@ -32,3 +32,15 @@ export interface ProjectList {
   name: string;
   gitWebUrl: string;
 }
+
+export interface ServiceRunningVersionList {
+  id: string;
+  env: string;
+  projectName: string;
+  branchName: string;
+  serviceVersion: string;
+  runningCommitId: string;
+  runningCommitTime: string;
+  latestCommitId: string;
+  utime: string;
+}

@@ -26,6 +26,59 @@ export function getProjectTableColums(): BasicColumn[] {
   ];
 }
 
+export function getServiceRunningVersionTableColums(): BasicColumn[] {
+  return [
+    {
+      title: '环境',
+      dataIndex: 'env',
+      align: 'left',
+      width: 110,
+    },
+    {
+      title: '工程名称',
+      dataIndex: 'projectName',
+      align: 'left',
+      width: 180,
+    },
+    {
+      title: '分支名称',
+      dataIndex: 'branchName',
+      align: 'left',
+      width: 210,
+    },
+    {
+      title: '版本号',
+      dataIndex: 'serviceVersion',
+      align: 'left',
+    },
+    {
+      title: '运行的CommitId',
+      dataIndex: 'runningCommitId',
+    },
+    {
+      title: '运行Commit提交时间',
+      dataIndex: 'runningCommitTime',
+    },
+    {
+      title: '分支最新CommitId',
+      dataIndex: 'latestCommitId',
+    },
+    {
+      title: '分支最新提交时间',
+      dataIndex: 'latestCommitTime',
+    },
+    {
+      title: '更新时间',
+      dataIndex: 'utime',
+    },
+    {
+      title: '操作',
+      key: 'action',
+      dataIndex: 'id',
+    },
+  ];
+}
+
 export function getBasicColumns(): BasicColumn[] {
   return [
     {

@@ -1,4 +1,5 @@
 {
   "genie": "Genie",
-  "project": "工程项目"
+  "project": "工程项目",
+  "serviceVersion": "服务版本"
 }

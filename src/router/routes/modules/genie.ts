@@ -23,6 +23,15 @@ const genie: AppRouteModule = {
         ignoreKeepAlive: false,
       },
     },
+    {
+      path: 'service-running-version',
+      name: 'ServiceVersion',
+      component: () => import('@/views/genie/service/ServiceRunningVersionList.vue'),
+      meta: {
+        title: t('routes.genie.serviceVersion'),
+        ignoreKeepAlive: false,
+      },
+    },
   ],
 };
 
